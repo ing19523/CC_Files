@@ -1,0 +1,5 @@
+{
+    "name": "corn-clicker",
+    "main": "electron-main.js",
+    "version": "1.0.0"
+}

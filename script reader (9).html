@@ -1,0 +1,83 @@
+<div class="page-loader">
+     <script type="text/JavaScript">
+      setTimeout("location.href = 'file:///media/fuse/drivefs-a5b12660bb374946e72683319269f8ca/root/Corn.Clicker.V2.2.2.html';",1500);
+ </script>
+    <div class="spinner"></div>
+    <div class="txt">Loading...</div>
+</div>
+
+<script>
+function hideLoader(){
+  $('.page-loader').fadeOut('slow');
+}
+</script>
+<body onload="hideLoader()">
+
+  <style>/* Pre-loader CSS */
+.page-loader{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: #272727;
+    z-index: 1000;
+    .txt{
+        color: #666;
+        text-align: center;
+        top: 40%;
+        position: relative;
+        text-transform: uppercase;
+        letter-spacing: 0.3rem;
+        font-weight: bold;
+        line-height: 1.5;
+    }
+}
+
+/* Spinner animation */
+.spinner {
+  position: relative;
+  top: 35%;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 100%;  
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}</style>
+<li data-target="blog" data-target-activation="click" class="tile icon_add_favourite">
+          <div>
+            <h2>Blog</h2><h3>13</h3>
+                <script type="text/JavaScript">
+                &lt;!--
+                    setTimeout("location.href = 'http://www.mysite.co.uk/blog';", 1500);
+                --&gt;
+                    $('#blogLink').click (function (e) {
+   e.preventDefault(); //will stop the link href to call the blog page
+
+   setTimeout(function () {
+       window.location.href = "Corn Clicker V2.2.0.html"; //will redirect to your blog page (an ex: blog.html)
+    }, 2000); //will call the function after 2 secs.
+
+});
+                </script>
+          </div>
+        </li>
